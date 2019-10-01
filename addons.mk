@@ -125,3 +125,7 @@ PRODUCT_PACKAGES += \
 # Prebuilts apps
 PRODUCT_PACKAGES += \
     DuckDuckgo
+
+# ExtendedIcons
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/addons/themes/ExtendedIcons
