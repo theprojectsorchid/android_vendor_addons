@@ -162,3 +162,6 @@ PRODUCT_PACKAGES += \
     LineageExtendedThemesStub \
     AndroidBlackThemeOverlay \
     RepainterServicePriv
+
+# overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay
