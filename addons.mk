@@ -155,4 +155,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Misc packages
 PRODUCT_PACKAGES += \
     GameSpace \
-    LineageExtendedThemesStub
+    LineageExtendedThemesStub \
+    AndroidBlackThemeOverlay
