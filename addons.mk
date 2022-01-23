@@ -160,4 +160,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     GameSpace \
     LineageExtendedThemesStub \
-    AndroidBlackThemeOverlay
+    AndroidBlackThemeOverlay \
+    RepainterServicePriv
