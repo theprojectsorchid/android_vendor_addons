@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
     FontLGSmartGothicOverlay \
     FontLinotteOverlay \
     FontNokiaPureOverlay \
+    FontNothiingDotOverlay \
     FontNunitoOverlay \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
