@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
     FontRosemaryOverlay \
     FontRubikOverlay \
     FontSamsungOneOverlay \
+    FontSimpleDaySourceOverlay \
     FontSonySketchOverlay \
     FontStoropiaOverlay \
     FontSurferOverlay \
