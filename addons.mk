@@ -121,3 +121,7 @@ PRODUCT_PACKAGES += \
     IconShapeTaperedRectOverlay \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
+
+# Prebuilts apps
+PRODUCT_PACKAGES += \
+    DuckDuckgo
