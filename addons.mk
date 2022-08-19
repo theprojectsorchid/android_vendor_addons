@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/addons/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,vendor/addons/prebuilts/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
     
 # Icon Packs
 PRODUCT_PACKAGES += \
@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
     IconShapeTeardropOverlay \
     IconShapeVesselOverlay
 
-# Prebuilts apps
+# Prebuilt apps
 PRODUCT_PACKAGES += \
     DuckDuckgo
 

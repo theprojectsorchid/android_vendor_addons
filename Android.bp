@@ -1,6 +1,6 @@
 android_app_import {
 	name: "DuckDuckgo",
-	apk: "apps/DuckDuckgo.apk",
+	apk: "prebuilts/apps/DuckDuckgo.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
