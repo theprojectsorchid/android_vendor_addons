@@ -129,3 +129,7 @@ PRODUCT_PACKAGES += \
 # ExtendedIcons
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/addons/themes/ExtendedIcons
+
+# Misc packages
+PRODUCT_PACKAGES += \
+    GameSpace
