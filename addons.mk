@@ -154,4 +154,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Misc packages
 PRODUCT_PACKAGES += \
-    GameSpace
+    GameSpace \
+    LineageExtendedThemesStub
