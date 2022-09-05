@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
 # Prebuilt apps
 PRODUCT_PACKAGES += \
     DuckDuckgo \
-    GrapheneCamera
+    GrapheneCamera \
+    SimpleGallery
 
 # ExtendedIcons
 PRODUCT_PACKAGE_OVERLAYS += \
