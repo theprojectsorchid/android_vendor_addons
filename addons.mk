@@ -167,3 +167,6 @@ PRODUCT_PACKAGES += \
 
 # overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay
+
+# Bootanimation
+$(call inherit-product, vendor/addons/bootanimation/bootanimation.mk)
