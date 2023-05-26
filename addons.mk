@@ -29,10 +29,8 @@ PRODUCT_PACKAGES += \
     FontCoolstoryOverlay \
     FontExotwoOverlay \
     FontFifa2018Overlay \
-    FontGoogleSansOverlay \
     FontGrandHotelOverlay \
     FontHarmonySansOverlay \
-    FontLatoOverlay \
     FontLGSmartGothicOverlay \
     FontLinotteOverlay \
     FontNokiaPureOverlay \
@@ -41,8 +39,6 @@ PRODUCT_PACKAGES += \
     FontOneplusSansOverlay \
     FontOneplusSlateOverlay \
     FontOswaldOverlay \
-    FontInterOverlay \
-    FontOppoSansOverlay \
     FontQuandoOverlay \
     FontRedressedOverlay \
     FontReemKufiOverlay \
@@ -62,41 +58,6 @@ PRODUCT_COPY_FILES += \
     
 # Icon Packs
 PRODUCT_PACKAGES += \
-    IconPackCircularAndroidOverlay \
-    IconPackCircularLauncherOverlay \
-    IconPackCircularSettingsOverlay \
-    IconPackCircularSystemUIOverlay \
-    IconPackCircularThemePickerOverlay \
-    IconPackVictorAndroidOverlay \
-    IconPackVictorLauncherOverlay \
-    IconPackVictorSettingsOverlay \
-    IconPackVictorSystemUIOverlay \
-    IconPackVictorThemePickerOverlay \
-    IconPackSamAndroidOverlay \
-    IconPackSamLauncherOverlay \
-    IconPackSamSettingsOverlay \
-    IconPackSamSystemUIOverlay \
-    IconPackSamThemePickerOverlay \
-    IconPackKaiAndroidOverlay \
-    IconPackKaiLauncherOverlay \
-    IconPackKaiSettingsOverlay \
-    IconPackKaiSystemUIOverlay \
-    IconPackKaiThemePickerOverlay \
-    IconPackFilledAndroidOverlay \
-    IconPackFilledLauncherOverlay \
-    IconPackFilledSettingsOverlay \
-    IconPackFilledSystemUIOverlay \
-    IconPackFilledThemePickerOverlay \
-    IconPackPUIAndroidOverlay \
-    IconPackPUILauncherOverlay \
-    IconPackPUISettingsOverlay \
-    IconPackPUISystemUIOverlay \
-    IconPackPUIThemePickerOverlay \
-    IconPackRoundedAndroidOverlay \
-    IconPackRoundedLauncherOverlay \
-    IconPackRoundedSettingsOverlay \
-    IconPackRoundedSystemUIOverlay \
-    IconPackRoundedThemePickerOverlay \
     IconPackOOSAndroidOverlay \
     IconPackOOSLauncherOverlay \
     IconPackOOSSettingsOverlay \
@@ -148,11 +109,6 @@ PRODUCT_PACKAGES += \
 	ZigZagSignalOverlay \
 	ZigZagWiFiOverlay
 
-# Prebuilt apps
-PRODUCT_PACKAGES += \
-    DuckDuckgo \
-    GrapheneCamera \
-    SimpleGallery
 
 # ExtendedIcons
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -160,13 +116,5 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Misc packages
 PRODUCT_PACKAGES += \
-    GameSpace \
-    LineageExtendedThemesStub \
-    AndroidBlackThemeOverlay \
-    RepainterServicePriv
+    LineageExtendedThemesStub 
 
-# overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/addons/overlay
-
-# Bootanimation
-$(call inherit-product, vendor/addons/bootanimation/bootanimation.mk)
